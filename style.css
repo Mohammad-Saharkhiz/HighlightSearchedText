@@ -1,0 +1,90 @@
+*{
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    font-family: "Rubik",sans-serif;
+}
+body{
+    height: 100%;
+    background: -webkit-gradient(
+        linear,
+        left bottom, right top,
+        from(#233832),
+        to(#f8f2e0)
+    ) fixed;
+    background: -o-linear-gradient(
+        bottom left,
+        #233832,
+        #f8f2e0
+    ) fixed;
+    background: linear-gradient(
+        to top right,
+        #233832,
+        #f8f2e0
+    ) fixed;
+}
+.container{
+    width: 90vmin;
+    max-height: 90vh;
+    background-color: #10344e42;
+    padding: 50px 40px;
+    position: absolute;
+    -webkit-transform: translate(-50%,-50%);
+        -ms-transform: translate(-50%,-50%);
+            transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 10px;
+    -webkit-box-shadow: 0 20px 35px rgba(60,60,60,0.2);
+            box-shadow: 0 20px 35px rgba(60,60,60,0.2);
+    overflow-y: auto;
+}
+.wrapper{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+}
+.wrapper input{
+    width: 60%;
+    padding: 10px 5px;
+    border-radius: 7px;
+    border: 1px solid #201d2e;
+    background-color: transparent;
+    outline: none;
+}
+.wrapper input::-webkit-input-placeholder{
+    color: #c6c6c6;
+}
+.wrapper input::-moz-placeholder{
+    color: #c6c6c6;
+}
+.wrapper input:-ms-input-placeholder{
+    color: #c6c6c6;
+}
+.wrapper input::-ms-input-placeholder{
+    color: #c6c6c6;
+}
+.wrapper input::placeholder{
+    color: #c6c6c6;
+}
+.wrapper button{
+    width: 30%;
+    background-color: #1d2e2d;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: #ffffff;
+    border-radius: 7px;
+}
+.container p{
+    line-height: 35px;
+    text-align: justify;
+    margin-top: 30px;
+}
+mark{
+    background-color: #ffdd4b;
+}
